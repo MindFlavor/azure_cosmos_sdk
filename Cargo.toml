@@ -12,29 +12,29 @@ homepage       = "https://github.com/MindFlavor/azure_cosmos_sdk"
 keywords       = ["sdk", "azure", "cosmos", "rest", "iot", "cloud"]
 categories     = ["api-bindings"]
 
-[dependencies]
-azure_core_sdk = "*"
-RustyXML       = "*"
-base64         = "*"
-chrono         = "*"
-env_logger     = "*"
-futures        = "*"
-hyper          = "*"
-hyper-tls      = "*"
-log            = "*"
-mime           = "*"
-native-tls     = "*"
-quick-error    = "*"
-rust-crypto    = "*"
-serde          = "*"
-serde_derive   = "*"
-serde_json     = "*"
-# crypto 	       = "*"
-time           = "*"
-tokio          = "*"
-tokio-core     = "*"
-url            = "*"
-uuid           = "*"
-
 [features]
 test_e2e       = []
+
+[dependencies]
+azure_core_sdk = "0.1.1"
+RustyXML       = "0.1.1"
+base64         = "0.9.0"
+chrono         = "0.4.0"
+env_logger     = "0.5.3"
+futures        = "0.1.18"
+hyper          = "0.11.18"
+hyper-tls      = "0.1.2"
+log            = "0.4.1"
+mime           = "0.3.5"
+native-tls     = "0.1.5"
+quick-error    = "1.2.1"
+rust-crypto    = "0.2.36"
+serde          = "1.0.27"
+serde_derive   = "1.0.27"
+serde_json     = "1.0.9"
+time           = "0.1.39"
+tokio          = "0.1.1"
+tokio-core     = "0.1.12"
+url            = "1.6.0"
+uuid           = "0.6.0"
+
