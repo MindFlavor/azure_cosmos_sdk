@@ -9,7 +9,7 @@ repository     = "https://github.com/MindFlavor/azure_cosmos_sdk"
 documentation  = "https://docs.rs/azure_cosmos_sdk"
 homepage       = "https://github.com/MindFlavor/azure_cosmos_sdk"
 
-keywords       = ["sdk", "azure", "cosmos", "rest", "iot", "cloud"]
+keywords       = ["sdk", "azure", "cosmos", "rest", "iot"]
 categories     = ["api-bindings"]
 
 [features]
