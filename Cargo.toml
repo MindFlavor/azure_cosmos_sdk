@@ -1,0 +1,40 @@
+[package]
+name           = "azure_cosmos_sdk"
+version        = "0.1.0"
+description    = "Rust wrappers around Microsoft Cosmos DB REST APIs"
+readme         = "README.md"
+authors        = ["Francesco Cogno <francesco.cogno@outlook.com>"]
+license        = "MIT"
+repository     = "https://github.com/MindFlavor/azure_cosmos_sdk"
+documentation  = "https://docs.rs/azure_cosmos_sdk"
+homepage       = "https://github.com/MindFlavor/azure_cosmos_sdk"
+
+keywords       = ["sdk", "azure", "cosmos", "rest", "iot", "cloud"]
+categories     = ["api-bindings"]
+
+[dependencies]
+azure_core_sdk = "*"
+RustyXML       = "*"
+base64         = "*"
+chrono         = "*"
+env_logger     = "*"
+futures        = "*"
+hyper          = "*"
+hyper-tls      = "*"
+log            = "*"
+mime           = "*"
+native-tls     = "*"
+quick-error    = "*"
+rust-crypto    = "*"
+serde          = "*"
+serde_derive   = "*"
+serde_json     = "*"
+# crypto 	       = "*"
+time           = "*"
+tokio          = "*"
+tokio-core     = "*"
+url            = "*"
+uuid           = "*"
+
+[features]
+test_e2e       = []
